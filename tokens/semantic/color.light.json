@@ -1,0 +1,189 @@
+{
+  "color": {
+    "$description": "Semantic color, light mode. Source: Color.jpg (Semantic color styling).",
+    "bg": {
+      "base": {
+        "primary": {
+          "$value": "{color.neutral.white}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{color.neutral.100}",
+          "$type": "color"
+        },
+        "tertiary": {
+          "$value": "{color.neutral.200}",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "primary": {
+          "$value": "{color.neutral.white}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{color.neutral.100}",
+          "$type": "color"
+        },
+        "tertiary": {
+          "$value": "{color.neutral.200}",
+          "$type": "color"
+        },
+        "success": {
+          "$value": "{color.status.success.100}",
+          "$type": "color"
+        },
+        "warning": {
+          "$value": "{color.status.warning.100}",
+          "$type": "color"
+        },
+        "critical": {
+          "$value": "{color.status.critical.100}",
+          "$type": "color"
+        },
+        "info": {
+          "$value": "{color.status.info.100}",
+          "$type": "color"
+        },
+        "brand": {
+          "$value": "{color.brand.core.100}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        }
+      }
+    },
+    "text": {
+      "headline": {
+        "100": {
+          "$value": "{color.brand.core.300}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        },
+        "200": {
+          "$value": "{color.brand.core.400}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        },
+        "300": {
+          "$value": "{color.brand.core.500}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        },
+        "primary": {
+          "$value": "{color.neutral.black}",
+          "$type": "color"
+        },
+        "inverse": {
+          "$value": "{color.neutral.white}",
+          "$type": "color"
+        }
+      },
+      "body": {
+        "primary": {
+          "$value": "{color.neutral.black}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{color.neutral.500}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        },
+        "tertiary": {
+          "$value": "{color.neutral.400}",
+          "$type": "color",
+          "$description": "INFERRED from swatch. Verify."
+        },
+        "inverse": {
+          "$value": "{color.neutral.white}",
+          "$type": "color"
+        }
+      }
+    },
+    "border": {
+      "100": {
+        "$value": "{color.neutral.100}",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "{color.neutral.200}",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "{color.neutral.300}",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "{color.neutral.400}",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "{color.neutral.500}",
+        "$type": "color"
+      },
+      "contrast": {
+        "$value": "{color.neutral.black}",
+        "$type": "color"
+      },
+      "inverse": {
+        "$value": "{color.neutral.white}",
+        "$type": "color"
+      },
+      "focus": {
+        "$value": "{color.brand.core.300}",
+        "$type": "color",
+        "$description": "INFERRED from swatch. Verify."
+      },
+      "critical": {
+        "$value": "{color.status.critical.300}",
+        "$type": "color"
+      },
+      "warning": {
+        "$value": "{color.status.warning.300}",
+        "$type": "color"
+      },
+      "success": {
+        "$value": "{color.status.success.300}",
+        "$type": "color"
+      },
+      "info": {
+        "$value": "{color.status.info.300}",
+        "$type": "color"
+      }
+    },
+    "icon": {
+      "brand": {
+        "$value": "{color.brand.core.300}",
+        "$type": "color"
+      },
+      "neutral": {
+        "$value": "{color.neutral.black}",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "{color.neutral.400}",
+        "$type": "color",
+        "$description": "INFERRED from swatch. Verify."
+      },
+      "inverse": {
+        "$value": "{color.neutral.white}",
+        "$type": "color"
+      },
+      "success": {
+        "$value": "{color.status.success.300}",
+        "$type": "color"
+      },
+      "warning": {
+        "$value": "{color.status.warning.300}",
+        "$type": "color"
+      },
+      "critical": {
+        "$value": "{color.status.critical.300}",
+        "$type": "color"
+      },
+      "info": {
+        "$value": "{color.status.info.300}",
+        "$type": "color"
+      }
+    }
+  }
+}

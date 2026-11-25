@@ -1,0 +1,264 @@
+{
+  "font": {
+    "$description": "Source: Typography.jpg. TODO: verify sizes against full-resolution tables.",
+    "family": {
+      "brand": {
+        "$value": [
+          "Graphik",
+          "Arial",
+          "sans-serif"
+        ],
+        "$type": "fontFamily"
+      },
+      "serif": {
+        "$value": [
+          "GT Sectra Fine",
+          "Palatino",
+          "serif"
+        ],
+        "$type": "fontFamily",
+        "$description": "Pull quotes only."
+      }
+    },
+    "weight": {
+      "regular": {
+        "$value": 400,
+        "$type": "fontWeight"
+      },
+      "semibold": {
+        "$value": 600,
+        "$type": "fontWeight"
+      }
+    },
+    "size": {
+      "heading": {
+        "4xl": {
+          "desktop": {
+            "$value": "136px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "56px",
+            "$type": "dimension"
+          }
+        },
+        "3xl": {
+          "desktop": {
+            "$value": "120px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "56px",
+            "$type": "dimension"
+          }
+        },
+        "2xl": {
+          "desktop": {
+            "$value": "96px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "48px",
+            "$type": "dimension"
+          }
+        },
+        "1xl": {
+          "desktop": {
+            "$value": "80px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "40px",
+            "$type": "dimension"
+          }
+        },
+        "xl": {
+          "desktop": {
+            "$value": "64px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "40px",
+            "$type": "dimension"
+          }
+        },
+        "lg": {
+          "desktop": {
+            "$value": "56px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "40px",
+            "$type": "dimension"
+          }
+        },
+        "md": {
+          "desktop": {
+            "$value": "48px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "40px",
+            "$type": "dimension"
+          }
+        },
+        "sm": {
+          "desktop": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "32px",
+            "$type": "dimension"
+          }
+        },
+        "xs": {
+          "desktop": {
+            "$value": "36px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "28px",
+            "$type": "dimension"
+          }
+        },
+        "1xs": {
+          "desktop": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "28px",
+            "$type": "dimension"
+          }
+        },
+        "2xs": {
+          "desktop": {
+            "$value": "24px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "24px",
+            "$type": "dimension"
+          }
+        },
+        "3xs": {
+          "desktop": {
+            "$value": "20px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "20px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "body": {
+        "3xl": {
+          "desktop": {
+            "$value": "32px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "2xl": {
+          "desktop": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "1xl": {
+          "desktop": {
+            "$value": "24px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "xl": {
+          "desktop": {
+            "$value": "20px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "lg": {
+          "desktop": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "md": {
+          "desktop": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "sm": {
+          "desktop": {
+            "$value": "14px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "14px",
+            "$type": "dimension"
+          }
+        },
+        "xs": {
+          "desktop": {
+            "$value": "12px",
+            "$type": "dimension"
+          },
+          "mobile": {
+            "$value": "12px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "ui": {
+        "lg": {
+          "$value": "18px",
+          "$type": "dimension"
+        },
+        "md": {
+          "$value": "16px",
+          "$type": "dimension"
+        },
+        "sm": {
+          "$value": "14px",
+          "$type": "dimension"
+        }
+      }
+    },
+    "rule": {
+      "heading": {
+        "$value": "letterSpacing = size * -0.03; lineHeight = size; paragraphSpacing = 0",
+        "$type": "string"
+      },
+      "body": {
+        "$value": "letterSpacing = size * -0.01 (0 below 16px); lineHeight = size * 1.5, rounded to 4; paragraphSpacing = size * 1.3, rounded to 4",
+        "$type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motion": {
+    "$description": "Source: Motion.jpg. Never use linear. Never fade, except for background dimming.",
+    "duration": {
+      "fast": {
+        "$value": "150ms",
+        "$type": "duration"
+      },
+      "moderate": {
+        "$value": "300ms",
+        "$type": "duration"
+      },
+      "slow": {
+        "$value": "700ms",
+        "$type": "duration"
+      }
+    },
+    "easing": {
+      "standard": {
+        "$value": [
+          0.85,
+          0,
+          0,
+          1
+        ],
+        "$type": "cubicBezier"
+      },
+      "slow": {
+        "$value": [
+          0.77,
+          0,
+          0.18,
+          1
+        ],
+        "$type": "cubicBezier"
+      }
+    }
+  }
+}

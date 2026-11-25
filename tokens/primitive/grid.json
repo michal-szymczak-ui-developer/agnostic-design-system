@@ -1,0 +1,109 @@
+{
+  "grid": {
+    "$description": "Source: Space.jpg (Grid layouts).",
+    "small": {
+      "columns": {
+        "$value": 4,
+        "$type": "number"
+      },
+      "minWidth": {
+        "$value": "320px",
+        "$type": "dimension"
+      },
+      "maxWidth": {
+        "$value": "719px",
+        "$type": "dimension"
+      },
+      "margin": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "gutter": {
+        "$value": "16px",
+        "$type": "dimension"
+      }
+    },
+    "medium": {
+      "columns": {
+        "$value": 6,
+        "$type": "number"
+      },
+      "minWidth": {
+        "$value": "720px",
+        "$type": "dimension"
+      },
+      "maxWidth": {
+        "$value": "1279px",
+        "$type": "dimension"
+      },
+      "margin": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "gutter": {
+        "$value": "16px",
+        "$type": "dimension"
+      }
+    },
+    "large": {
+      "columns": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "minWidth": {
+        "$value": "1280px",
+        "$type": "dimension"
+      },
+      "maxWidth": {
+        "$value": "1920px",
+        "$type": "dimension"
+      },
+      "margin": {
+        "$value": "40px",
+        "$type": "dimension"
+      },
+      "gutter": {
+        "$value": "24px",
+        "$type": "dimension"
+      }
+    },
+    "cozy": {
+      "columns": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "minWidth": {
+        "$value": "1280px",
+        "$type": "dimension"
+      },
+      "margin": {
+        "$value": "80px",
+        "$type": "dimension"
+      },
+      "gutter": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "$description": "Default density."
+    },
+    "compact": {
+      "columns": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "minWidth": {
+        "$value": "1280px",
+        "$type": "dimension"
+      },
+      "margin": {
+        "$value": "40px",
+        "$type": "dimension"
+      },
+      "gutter": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "$description": "Dense screens."
+    }
+  }
+}

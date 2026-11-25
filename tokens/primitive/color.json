@@ -1,0 +1,147 @@
+{
+  "color": {
+    "$description": "Source: references/accenture/Color.jpg",
+    "brand": {
+      "core": {
+        "100": {
+          "$value": "#E6DCFF",
+          "$type": "color"
+        },
+        "200": {
+          "$value": "#C2A3FF",
+          "$type": "color"
+        },
+        "300": {
+          "$value": "#A100FF",
+          "$type": "color"
+        },
+        "400": {
+          "$value": "#7500C0",
+          "$type": "color"
+        },
+        "500": {
+          "$value": "#460073",
+          "$type": "color"
+        }
+      }
+    },
+    "accent": {
+      "blue": {
+        "$value": "#224BFF",
+        "$type": "color"
+      },
+      "aqua": {
+        "$value": "#05F2DB",
+        "$type": "color"
+      },
+      "pink": {
+        "$value": "#FF50A0",
+        "$type": "color"
+      }
+    },
+    "neutral": {
+      "100": {
+        "$value": "#F1F1EF",
+        "$type": "color"
+      },
+      "200": {
+        "$value": "#CFCFCF",
+        "$type": "color"
+      },
+      "300": {
+        "$value": "#808080",
+        "$type": "color"
+      },
+      "400": {
+        "$value": "#555555",
+        "$type": "color"
+      },
+      "500": {
+        "$value": "#202020",
+        "$type": "color"
+      },
+      "white": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      },
+      "black": {
+        "$value": "#000000",
+        "$type": "color"
+      }
+    },
+    "status": {
+      "success": {
+        "100": {
+          "$value": "#E5FAF1",
+          "$type": "color"
+        },
+        "200": {
+          "$value": "#34D399",
+          "$type": "color"
+        },
+        "300": {
+          "$value": "#167C61",
+          "$type": "color"
+        },
+        "400": {
+          "$value": "#065F46",
+          "$type": "color"
+        }
+      },
+      "warning": {
+        "100": {
+          "$value": "#FEF3C4",
+          "$type": "color"
+        },
+        "200": {
+          "$value": "#FBBF24",
+          "$type": "color"
+        },
+        "300": {
+          "$value": "#C16B02",
+          "$type": "color"
+        },
+        "400": {
+          "$value": "#AC511A",
+          "$type": "color"
+        }
+      },
+      "critical": {
+        "100": {
+          "$value": "#FFE3E3",
+          "$type": "color"
+        },
+        "200": {
+          "$value": "#F87171",
+          "$type": "color"
+        },
+        "300": {
+          "$value": "#D60D0D",
+          "$type": "color"
+        },
+        "400": {
+          "$value": "#991B1B",
+          "$type": "color"
+        }
+      },
+      "info": {
+        "100": {
+          "$value": "#BFDBFE",
+          "$type": "color"
+        },
+        "200": {
+          "$value": "#60A5FA",
+          "$type": "color"
+        },
+        "300": {
+          "$value": "#224BFF",
+          "$type": "color"
+        },
+        "400": {
+          "$value": "#1D1B99",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

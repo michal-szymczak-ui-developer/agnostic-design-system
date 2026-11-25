@@ -1,0 +1,58 @@
+{
+  "border": {
+    "width": {
+      "xs": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "sm": {
+        "$value": "2px",
+        "$type": "dimension"
+      },
+      "md": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": "8px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "$description": "Source: Borders.png. Square (none) is the default.",
+      "none": {
+        "$value": "0px",
+        "$type": "dimension"
+      },
+      "xs": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "sm": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "md": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "full": {
+        "$value": "999px",
+        "$type": "dimension",
+        "$description": "Avatars only."
+      }
+    }
+  }
+}
