@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "tokens:build": "node scripts/build-tokens.mjs",
+    "tokens:build": "node scripts/build-tokens.mjs && node scripts/build-chakra.mjs",
     "typecheck": "tsc",
     "storybook": "npm run tokens:build && storybook dev -p 6006",
     "build-storybook": "npm run tokens:build && storybook build"
@@ -19,6 +19,8 @@
     "vite": "^6.4.6"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.38.0",
+    "@emotion/react": "^11.14.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   }

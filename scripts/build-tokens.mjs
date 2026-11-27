@@ -14,7 +14,8 @@ const build = async (mode, selector) => {
             destination: `${mode}.css`,
             format: 'css/variables',
             // Emit primitives once (light file). Emit only semantic tokens in dark.
-            filter: (t) => (mode === 'light' ? true : t.filePath.includes('semantic')),
+            // Skip text-only rules ($type string). They are not valid CSS values.
+            filter: (t) => t.$type !== 'string' && (mode === 'light' ? true : t.filePath.includes('semantic')),
             options: { selector, outputReferences: true },
           },
         ],
