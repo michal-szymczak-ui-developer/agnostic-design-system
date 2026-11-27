@@ -429,4 +429,7 @@ FodyWeavers.xsd
 dist/
 
 # Generated tokens
-references/
+references/storybook-static/
+
+# Storybook build
+/storybook-static/

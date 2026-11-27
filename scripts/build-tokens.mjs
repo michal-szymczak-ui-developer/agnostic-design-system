@@ -4,7 +4,7 @@ import StyleDictionary from 'style-dictionary';
 const build = async (mode, selector) => {
   const sd = new StyleDictionary({
     include: ['tokens/primitive/**/*.json'],
-    source: [`tokens/semantic/color.${mode}.json`],
+    source: [`tokens/semantic/*.${mode}.json`],
     platforms: {
       css: {
         transformGroup: 'css',

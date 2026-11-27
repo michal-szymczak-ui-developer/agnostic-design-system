@@ -1,0 +1,84 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "bg": {
+          "$value": "{color.brand.core.200}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "hover": {
+          "$value": "{color.brand.core.100}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "active": {
+          "$value": "{color.neutral.white}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "text": {
+          "$value": "{color.neutral.black}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        }
+      },
+      "secondary": {
+        "border": {
+          "$value": "{color.neutral.white}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "text": {
+          "$value": "{color.neutral.white}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "hover": {
+          "$value": "{color.neutral.500}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "active": {
+          "$value": "{color.neutral.400}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        }
+      },
+      "tertiary": {
+        "text": {
+          "$value": "{color.neutral.white}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "hover": {
+          "$value": "{color.neutral.500}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "active": {
+          "$value": "{color.neutral.400}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$value": "{color.neutral.400}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "text": {
+          "$value": "{color.neutral.300}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        },
+        "border": {
+          "$value": "{color.neutral.400}",
+          "$type": "color",
+          "$description": "INFERRED. No reference defines interaction colors. Verify."
+        }
+      }
+    }
+  }
+}

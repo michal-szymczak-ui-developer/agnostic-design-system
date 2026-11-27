@@ -5,6 +5,8 @@ Flow:
 Opisuję komponent → AI generuje Figmę i kod → ja oceniam jakość i spójność.
 AI wie jak budowac Figme - znad Design system - Tokeny, zna reguly.
 
+Dostarczam Lo-Fi szkic / Screenshot → AI buduje Design  → Kod  → Weryfikacja
+
 
 Rola: Design Engineer
 
@@ -13,6 +15,7 @@ Obszary:
 AI-ready design systems: dokumentacja i struktura systemu tak, żeby modele potrafiły z niego poprawnie korzystać (opisy komponentów, reguły użycia, MCP, pliki typu CLAUDE.md z zasadami systemu). To moim zdaniem jedna z najszybciej rosnących nisz.
 
 Design tokeny i architektura systemu: tokeny jako jedno źródło prawdy dla Figmy i kodu (Style Dictionary, Tokens Studio, zmienne w Figmie), wersjonowanie, governance.
+
 Komponenty w kodzie: React/Web Components, Storybook, testy wizualne i regresyjne.
 Accessibility jako domyślny standard
 Motion i interakcje: animacje, micro-interactions, wydajność renderowania.
